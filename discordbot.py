@@ -16,6 +16,7 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def slot(ctx):
     await ctx.send(':slot_machine:')
+    await ctx.send('unko')
 
 
 bot.run(token)
