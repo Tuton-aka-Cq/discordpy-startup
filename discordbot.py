@@ -16,7 +16,7 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def slot(ctx):
     await ctx.send(':slot_machine:')
-    await message.channel.send("<:whoisthis:822198965747187752>")
+    await ctx.send("<:whoisthis:822198965747187752>")
 
 
 bot.run(token)
