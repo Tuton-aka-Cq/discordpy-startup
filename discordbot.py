@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
+async def slot(ctx):
     await ctx.send(':slot_machine:')
 
 
