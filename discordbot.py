@@ -6,7 +6,7 @@ import random
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
 
-#items = ["<:yashiko_socute:817384253515497492>","<:whoisthis:822198965747187752>","<:soulspark_taki:839227218022367285>"]
+items = ["<:yashiko_socute:817384253515497492>","<:whoisthis:822198965747187752>","<:soulspark_taki:839227218022367285>"]
 
 
 @bot.event
