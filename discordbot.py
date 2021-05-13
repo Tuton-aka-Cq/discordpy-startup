@@ -19,8 +19,9 @@ async def on_command_error(ctx, error):
 @bot.command()
 async def slot(ctx):
     await ctx.send(':slot_machine:')
-    #await ctx.send(random.sample(items, 3))
-    await ctx.send(random.choices(items, k=3))
+    #await ctx.send(random.sample(items, 3)) sampleは重複無、choicesは有。
+    #await ctx.send(random.choices(items, k=3))
+    print(random.choice(items),random.choice(items),random.choice(items))
 
 
 bot.run(token)
