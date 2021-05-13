@@ -20,7 +20,7 @@ async def on_command_error(ctx, error):
 async def slot(ctx):
     await ctx.send(':slot_machine:')
     #await ctx.send("<:yashiko_socute:817384253515497492><:whoisthis:822198965747187752><:soulspark_taki:839227218022367285>")
-    await ctx.send(random.choices(items, 3))
+    await ctx.send(random.sample(items, 3))
 
 
 bot.run(token)
